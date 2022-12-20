@@ -1,17 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace WpfApp1.Entities
 {
-    class Answer
+   public class Answer
     {
-        public string false1_answer { get; set; }
-        public string true_answer { get; set; }
-        public string false2_answer { get; set; }
-        public string false3_answer { get; set; }
+        [Required, Key]
+        public int Id_Answer { get; set; }
+        public string False1_answer { get; set; }
+        public string True_answer { get; set; }
+        public string False2_answer { get; set; }
+        public string False3_answer { get; set; }
     }
 }
-}
+

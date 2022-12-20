@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace WpfApp1.Entities
 {
-    class Question
+    public class Question
     {
-        
-        public int id { get; set; }
+        [Required, Key]
+        public int Id_Question { get; set; }
         public string Subject { get; set; }
         public Speciality Speciality { get; set; }
         public string Questions { get; set; }

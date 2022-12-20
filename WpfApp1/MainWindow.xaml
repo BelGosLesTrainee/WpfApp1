@@ -9,7 +9,7 @@
 
     <Grid Background="#FF915C5C">
 
-        <Button x:Name="button1" Click="Button_Click"   Content="{Binding Path=Answer.false1_answer}" HorizontalAlignment="Left" Margin="30.783,261.846,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521" Style="{DynamicResource ButtonStyle2}">
+        <Button x:Name="button1" Click="Button_Click"   Content="{Binding Path=Answer.False1_answer}" HorizontalAlignment="Left" Margin="30.783,261.846,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521" Style="{DynamicResource ButtonStyle2}">
             <Button.Resources>
                 <Style x:Key="FocusVisual">
                     <Setter Property="Control.Template">
@@ -115,9 +115,9 @@ Button.Pressed.Border}" />
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="button2" Click="Button_Click" Content="{Binding Path=Answer.false2_answer}" HorizontalAlignment="Left" Margin="30.783,313.263,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521"/>
-        <Button x:Name="button3" Click="Button_Click" Content="{Binding Path=Answer.false3_answer}" HorizontalAlignment="Left" Margin="30.783,363.169,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521"/>
-        <Button x:Name="button4" Click="Button_Click" Content="{Binding Path=Answer.true_answer}" HorizontalAlignment="Left" Margin="30.783,207.404,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521" />
+        <Button x:Name="button2" Click="Button_Click" Content="{Binding Path=Answer.False2_answer}" HorizontalAlignment="Left" Margin="30.783,313.263,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521"/>
+        <Button x:Name="button3" Click="Button_Click" Content="{Binding Path=Answer.False3_answer}" HorizontalAlignment="Left" Margin="30.783,363.169,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521"/>
+        <Button x:Name="button4" Click="Button_Click" Content="{Binding Path=Answer.True_answer}" HorizontalAlignment="Left" Margin="30.783,207.404,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521" />
         <Label Content="{Binding Path=Questions}" HorizontalAlignment="Left" Margin="30.783,44.125,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.025,-1.515" Height="129.471" Width="713.214" Background="#FFD3C8C8"/>
 
     </Grid>

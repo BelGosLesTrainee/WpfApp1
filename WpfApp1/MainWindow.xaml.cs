@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 using WpfApp1.Entities;
+
 
 namespace WpfApp1
 {
@@ -41,14 +40,14 @@ namespace WpfApp1
 
             MyQuestion = new Question
             {
-                id=1,
+                Id_Question = 1,
                 Subject = "Охрана труда",
-                Speciality = new Speciality {name = "программист"},
+                Speciality = new Speciality {Name = "программист"},
                     Questions = "Как часто надо слушать лекцию по охране труда?",
-                Answer = new Answer { false1_answer = "один раз в год",
-                                      false2_answer = "каждый день",
-                                      false3_answer = "каждый квартал",
-                                       true_answer = "при начале работы"
+                Answer = new Answer { False1_answer = "один раз в год",
+                                      False2_answer = "каждый день",
+                                      False3_answer = "каждый квартал",
+                                      True_answer = "при начале работы"
                 },
                 
             };
