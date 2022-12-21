@@ -119,7 +119,7 @@ Button.Pressed.Border}" />
         <Button x:Name="Button3" Click="Button_Click" Content="{Binding Path=Answer.False3_answer}" HorizontalAlignment="Left" Margin="30.783,363.169,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521"/>
         <Button x:Name="Button4" Click="Button_Click" Content="{Binding Path=Answer.True_answer}" HorizontalAlignment="Left" Margin="30.783,207.404,0,0" VerticalAlignment="Top" Width="208.081" Height="27.521" />
         <Label Content="{Binding Path=Questions}" HorizontalAlignment="Left" Margin="30.783,44.125,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.025,-1.515" Height="129.471" Width="713.214" Background="#FFD3C8C8"/>
-        <Button x:Name="Button5" Content="добавить вопрос" HorizontalAlignment="Left" Margin="637.339,360.1,0,0" VerticalAlignment="Top" Width="129.921" Height="30.59"/>
+        <Button x:Name="Button5" Click="Button5_Click" Content="добавить вопрос" HorizontalAlignment="Left" Margin="637.339,360.1,0,0" VerticalAlignment="Top" Width="129.921" Height="30.59"/>
 
     </Grid>
 

@@ -17,6 +17,10 @@ namespace WpfApp1
     /// <summary>
     /// Interaction logic for add_Question.xaml
     /// </summary>
+    /// 
+
+
+
     public partial class add_Question : Window
     {
         public add_Question()

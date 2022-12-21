@@ -12,7 +12,7 @@ namespace WpfApp1.Entities
         [Required, Key]
         public int Id_Question { get; set; }
         public string Subject { get; set; }
-        public Speciality Speciality { get; set; }
+        //public Speciality Speciality { get; set; }
         public string Questions { get; set; }
         public Answer Answer { get; set; }
 
