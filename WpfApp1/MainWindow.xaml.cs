@@ -22,11 +22,16 @@ namespace WpfApp1
 
     public partial class MainWindow : Window
     {
-     
 
-        private void Button_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-          
+            
+        }
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            add_Question Add_Question = new add_Question();
+            Add_Question.Show();
+
         }
 
         public Question MyQuestion { get; set; }

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.add_Question"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="add_Question" Height="450" Width="800">
+    <Grid Background="#FF915C5C">
+        <TextBox HorizontalAlignment="Left" Height="34.138" Margin="44.103,50.586,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212.587"/>
+        <TextBox HorizontalAlignment="Left" Height="34.138" Margin="44.103,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212.587"/>
+        <TextBox HorizontalAlignment="Left" Height="34.138" Margin="44.103,168.517,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212.587"/>
+        <TextBox HorizontalAlignment="Left" Height="34.138" Margin="44.103,230.586,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212.587"/>
+        <TextBox HorizontalAlignment="Left" Height="34.138" Margin="44.103,291.103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212.587"/>
+        <TextBox HorizontalAlignment="Left" Height="34.138" Margin="44.103,350.069,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212.587"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="25.672" Margin="267.44,176.983,0,0" VerticalAlignment="Top" Width="17.379"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="25.672" Margin="267.44,239.052,0,0" VerticalAlignment="Top" Width="17.379"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="25.672" Margin="267.44,358.535,0,0" VerticalAlignment="Top" Width="17.379"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="25.672" Margin="267.44,299.569,0,0" VerticalAlignment="Top" Width="17.379"/>
+        <Label Content="Введите специальность" HorizontalAlignment="Left" Height="34.138" Margin="299.486,50.586,0,0" VerticalAlignment="Top" Width="212.587" AutomationProperties.IsColumnHeader="True" Background="#FF915C5C" FontSize="14"/>
+        <Label Content="Введите вопрос" HorizontalAlignment="Left" Height="34.138" Margin="299.486,108,0,0" VerticalAlignment="Top" Width="212.587" AutomationProperties.IsColumnHeader="True" Background="#FF915C5C" FontSize="14" RenderTransformOrigin="0.51,1.086"/>
+        <Label Content="Введите 4 ответа  " HorizontalAlignment="Left" Height="34.138" Margin="299.486,168.517,0,0" VerticalAlignment="Top" Width="212.587" AutomationProperties.IsColumnHeader="True" Background="#FF915C5C" FontSize="14"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Height="23.334" Margin="677.333,367.57,0,0" VerticalAlignment="Top" Width="94.667"/>
+        <Label Content="*обозначьте правильный ответ галочкой" HorizontalAlignment="Left" Height="23.334" Margin="293.333,385.666,0,0" VerticalAlignment="Top" Width="210.667" FontSize="11"/>
+
+    </Grid>
+</Window>
